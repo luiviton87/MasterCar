@@ -1,0 +1,67 @@
+body {
+	background-color: #0C0C0C;
+	margin: 0;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+h1, p, h2{
+	color: #EFEFEF;
+}
+
+img {
+	width: 50%;
+	height: 50%;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 50% 50%; 
+	text-align: center;
+	margin: 0 5%;
+}
+
+.border_red {
+	border-bottom: 1px solid #F80007FF;
+	margin-bottom: 10px;
+}
+
+.logo {
+	grid-column: 1/3;
+	background-color: #282828FF;
+}
+
+.opony {
+	grid-row: 2/4;
+}
+
+.klima {
+	grid-column: 1/2;
+	grid-row: 4/6;
+}
+
+.mechanika {
+	grid-column: 1/2;
+	grid-row: 6/8;
+}
+
+.bliacharstwo {
+	grid-column: 1/2;
+	grid-row: 8/10;
+}
+
+.promo {
+	grid-column: 2/3;
+	grid-row: 2/6;
+}
+
+.recenzje {
+	grid-column: 2/3;
+	grid-row: 6/10;
+}
+
+.footer {
+	grid-column: 1/3;
+	grid-row: 10/12;
+	display: grid;
+	background-color: #282828FF;
+}
